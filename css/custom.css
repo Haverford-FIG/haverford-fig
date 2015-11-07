@@ -230,5 +230,11 @@
 
 .member img {
     width: 200px;
-    height: 200px;
+    height: 300px;
+    
+}
+
+.button.button-primary, button.button-primary, input.button-primary[type="submit"], input.button-primary[type="reset"], input.button-primary[type="button"] {
+    background-color: #4ABD84;
+    border-color: #4ABD84;
 }
