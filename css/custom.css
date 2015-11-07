@@ -223,3 +223,12 @@
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
 }
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 300px;
+    height: 300px;
+}
