@@ -71,11 +71,10 @@ $(document).ready(function() {
         $body.addClass('has-docked-nav');
         $('.navbar').animate({backgroundColor: "#F06F6F"}, 500);
     }
-    if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
-        $('.navbar').animate({backgroundColor: "#FFFFFF"}, 500, 
-                             function() {$body.removeClass('has-docked-nav');
-                                         console.log("removing class.");
-                                        });
+      if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
+          $body.removeClass('has-docked-nav');
+          console.log("removing class.");
+          $('.navbar').set({backgroundColor: "#FFFFFF"});
 
     }
   }
