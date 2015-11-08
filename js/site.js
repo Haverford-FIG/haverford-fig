@@ -72,8 +72,8 @@ $(document).ready(function() {
         $('.navbar').animate({backgroundColor: "#F06F6F"});
     }
     if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
-        $('.navbar').animate({backgroundColor: "#FFFFFF"});
-        $body.removeClass('has-docked-nav');
+        $('.navbar').animate({backgroundColor: "#FFFFFF"}, 2000, $body.removeClass('has-docked-nav'));
+
     }
   }
 
