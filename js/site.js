@@ -69,10 +69,10 @@ $(document).ready(function() {
   function onScroll() {
     if(navOffsetTop < $window.scrollTop() && !$body.hasClass('has-docked-nav')) {
         $body.addClass('has-docked-nav');
-        $('.navbar').animate({backgroundColor: "#F06F6F"});
+        $('.navbar').animate({backgroundColor: "#F06F6F"}, 500);
     }
     if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
-        $('.navbar').animate({backgroundColor: "#FFFFFF"}, 
+        $('.navbar').animate({backgroundColor: "#FFFFFF"}, 500, 
                              function() {$body.removeClass('has-docked-nav');
                                          console.log("removing class.");
                                         });
