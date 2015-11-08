@@ -74,7 +74,7 @@ $(document).ready(function() {
         if(navOffsetTop > $window.scrollTop() && $body.hasClass('has-docked-nav')) {
             $body.removeClass('has-docked-nav');
             console.log("removing class.");
-            $('.navbar').animate({backgroundColor: "#FFFFFF"},500);
+            $('.navbar').animate({backgroundColor: "#FFFFFF"},0);
 
         }
     }
