@@ -112,7 +112,8 @@
 /* Larger than tablet */
 @media (min-width: 750px) {
   /* Navbar */
-  .navbar + .docs-section {
+    .navbar + .docs-section {
+        font-family: "Open Sans", sans-serif;
     border-top-width: 0; }
   .navbar,
   .navbar-spacer {
