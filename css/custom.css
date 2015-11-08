@@ -147,6 +147,8 @@
     color: #33C3F0; }
   .has-docked-nav .navbar {
       position: fixed;
+      border-top: none;
+      border-bottom: none;
     top: 0;
     left: 0; }
   .has-docked-nav .navbar-spacer {
