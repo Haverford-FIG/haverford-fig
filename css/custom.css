@@ -248,3 +248,9 @@
 body {
     font-family: "Open Sans";
 }
+
+.value-img {
+  height: 100px;
+  width: auto;
+}
+}
